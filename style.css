@@ -795,7 +795,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #c27956;
+    background-color: #CD8461;
 }
 
 .tc-white {
@@ -835,7 +835,7 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("../img/dots-bg.png");
+    background-image: url("..img/dots-bg.png");
     background-color: #4b2200;
 }
 
@@ -924,7 +924,7 @@ h4 {
     }
     .adress p{
         font-size:14px;
-        color: #fff;
+        color: #000;
     }
    .contact{
         margin: 0px 5px;

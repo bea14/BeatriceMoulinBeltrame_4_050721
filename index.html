@@ -7,10 +7,12 @@
 	
 	<link rel="shortcut icon" type="image/png" href="img/favicon.jpg">
 
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" defer>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" defer>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome-min.css">
 	<link rel="stylesheet" type="text/css" href="css/et-line.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" defer>-->
 
     <title>Accueil - La Chouette agence</title><!--Ajout d'un titre-->
 	<!--Cette balise est très importante elle permet de nommer le site, ce qui est important pour le référencement-->
@@ -19,12 +21,16 @@
     
 	<!-- Twitter Card data / pour référencement sur Twitter-->
 	<meta name="twitter:card" content="Entreprise webdesign Lyon">
+	<meta property="twitter:url" content="https://bea14.github.io/BeatriceMoulinBeltrame_4_050721/index.html">
+	<meta property="twitter:title" content="La chouette agence - Entreprise de web design à Lyon">
+	<meta property="twitter:description" content="La chouette agence est une entreprise de webdesign basée à Lyon (Région Rhônes-Alpes) qui aide les entrepreneurs à devenir attractifs et visibles sur Internet. ">
+	<meta property="twitter:image" content="https://github.com/bea14/BeatriceMoulinBeltrame_4_050721/blob/b3641db98e378634889984b57eb215e0583ea719/img/logo.png">
 
 	<!-- Open Graph data / pour référencement sur Facebook-->
 	<meta property="og:title" content="Entreprise webdesign Lyon" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://bea14.github.io/BeatriceMoulinBeltrame_4_050721/index.html" />
-	<meta property="og:image" content="img/la-chouette-agence.png" />	
+	<meta property="og:image" content="https://github.com/bea14/BeatriceMoulinBeltrame_4_050721/blob/b3641db98e378634889984b57eb215e0583ea719/img/logo.png" />	
 	<meta property="og:description" content="La chouette agence est une entreprise de webdesign basée à Lyon (Région Rhônes-Alpes) qui aide les entrepreneurs à devenir attractifs et visibles sur Internet." />
 
 
@@ -46,7 +52,7 @@
 			<div class="navbar-header">
 				<a class="navbar-brand" href="index.html" aria-label="Retour à l'accueil">
 					<div class="content-img">
-						<img src="img/la-chouette-agence.png" alt="Logo de la chouette agence représentant le dessin d'une chouette en noir et blanc"  width="170" height="37"/>
+						<img src="img/la-chouette-agence.png" alt="Logo de la chouette agence représentant le dessin d'une chouette en noir et blanc" />
 					</div>
 				</a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
@@ -360,7 +366,8 @@
 <!-- Il est très important de placer ces balises en fin de site juste avant la balise fermante du body pour que ces fichiers soit interpréter en dernier,
 ce qui permettra une accélération de l'affichage du site -->   
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script src="https://cdn.usebootstrap.com/bootstrap/latest/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<script src="js/blocs.js"></script>
+	<script src="./js/jquery.touchSwipe.min.js"></script>
 </body>
 </html>
