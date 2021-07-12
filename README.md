@@ -27,7 +27,7 @@ Vous travaillez pour La chouette agence, une grande agence de web design basée 
 * Réaliser une recherche des bonnes pratiques en développement web
 * Optimiser le référencement d'un site web
 
-### Environnement
+## Environnement
 * HTML
 * CSS
 * JS
