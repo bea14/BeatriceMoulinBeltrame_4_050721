@@ -1060,7 +1060,9 @@ h4 {
         transform: none;
         -webkit-transform: none;
         -ms-transform: none;
-    }
+        -moz-transform: none;
+        -o-transform: none;
+}
     .nav > li {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
