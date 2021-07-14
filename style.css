@@ -922,7 +922,7 @@ h4 {
         font-size:24px;
     }
     .navbar-brand img{
-        width:214px; 
+        width:auto; 
         height:40px;
     }
     .title h2{
