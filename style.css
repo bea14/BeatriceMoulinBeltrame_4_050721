@@ -1099,10 +1099,10 @@ h4 {
         -webkit-box-shadow: none;
         box-shadow: none;
     }
-    .navbar-brand img {
+    /*.navbar-brand img {
     height: 37px;
         width: 114px;
-    }
+    }*/
     .nav-invert .navbar-header {
         float: none;
         width: 100%;
